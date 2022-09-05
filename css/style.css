@@ -7,7 +7,7 @@
 
 /* COMMON */
 html{
-    font-family: sans-serif
+    font-family: 'Whitney';
 }
 .padding{
     padding: 1em;
@@ -19,7 +19,6 @@ html{
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid red;
     display: flex;
 }
 a{
