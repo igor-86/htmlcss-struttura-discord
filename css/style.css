@@ -16,7 +16,7 @@ html{
     padding: 0.1em .5em;
 }
 .container{
-    width: 80%;
+    width: 70%;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -27,12 +27,12 @@ a{
     font-weight: 500;
 }
 #grey{
-    background-color:#D3D3D3 ;
+    background-color:#f6f6f6 ;
 }
 
 #order{
     order: 1;
-    border: 2px dashed black;
+    
 }
 #order-tre{
     order:0;
@@ -80,8 +80,6 @@ a{
 .top-header .login-header{
     width: 20%;
     text-align: end;
-    
-    
 }
 .menu-header{
     display: flex;
@@ -92,12 +90,12 @@ a{
     
 }
 .menu-header li{
-    padding: 0em .9em;
+    padding: 0em 1.1em;
 }
 
     /* Title Container */
 #container-title{
-    width: 80%;
+    width: 70%;
     max-width: 1200px;
     min-height: 500px;
     margin: 0 auto;
@@ -132,24 +130,47 @@ a{
 /* MAIN */
 .box-main{
     width: 100%;
-    height: 600px;
-    display: flex;
-    align-items: center;
+    padding: 1.2em 0em;
+   
 }
 .box-row{
     width: 100%;
-    height: 470px;
+    min-height: 470px;
     display: flex;
+    
 }
 .row-two{
     width: 40%;
-    background-color: #D9D9D9;
+    align-content: flex-start;
+}
+.row-two > .row-text{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 470px;
+}
+.row-two > .row-text h2{
+    font-size: 2rem;
+    color: black;
+    margin-bottom: .5em;
+}
+.row-two > .row-text p{
+    color: black;
+    font-size: 1rem;
+    
 }
 .row-one{
     width: 60%;
-    background-color: #1E90FF;
-    border: 2px dashed black;
+    align-content: flex-start;
+    display: flex;
+    justify-content:center;
 }
+.row-one img{
+    width: 80%;
+    
+}
+
 .pink{
     background-color: pink;
     border: 2px dashed black;
@@ -158,11 +179,10 @@ a{
 /* Main Big */
 
 .box-big{
-    height: 1020px;
     width: 100%;
-    background-color: #D9D9D9;
-    display: flex;
-    align-items: center;
+    background-color: #f6f6f6;
+    padding: 1.2em 0em;
+    
 }
 .box-big .big{
     width: 100%;
@@ -186,7 +206,7 @@ a{
     display: flex;
     margin-top: 10px;
 }
-.row-footer{
+.row-social{
     flex-grow: 2;
     background-color: palevioletred;
     border: 2px dashed black;
